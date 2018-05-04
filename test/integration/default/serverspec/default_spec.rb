@@ -13,7 +13,6 @@ describe 'jetbrains::default' do
       pycharm-community
       clion
       WebStorm
-      AppCode
     ).each do |product|
       describe file("/usr/local/#{product.downcase}") do
         it { is_expected.to be_folder }
