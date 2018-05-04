@@ -17,7 +17,7 @@ action :install do
       url = "#{node['jetbrains']['download_base_url']}/idea/#{product}-#{new_resource.version}.tar.gz"
     when 'ideaIC'
       url = "#{node['jetbrains']['download_base_url']}/idea/#{product}-#{new_resource.version}.tar.gz"
-    when 'clion'
+    when 'CLion'
       url = "#{node['jetbrains']['download_base_url']}/cpp/#{product}-#{new_resource.version}.tar.gz"
     when 'pycharm-community'
       url = "#{node['jetbrains']['download_base_url']}/python/#{product}-#{new_resource.version}.tar.gz"
